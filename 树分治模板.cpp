@@ -37,7 +37,7 @@ inline void add(int x,int y){son[++tot]=y;nxt[tot]=lnk[x];lnk[x]=tot;}
 int main()
 {
 	N=read();
-	for (int i=1;i<=N;i++){
+	for (int i=1;i<N;i++){
 		int x=read(),y=read();
 		add(x,y);add(y,x);
 	}
